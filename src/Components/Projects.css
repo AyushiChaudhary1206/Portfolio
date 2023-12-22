@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: "Poppins",sans-serif;
+}
+
+.projects .row{
+  
+    margin-left:3vw;
+  
+}
+.projects .row .card{
+    margin:8vh 2vw;
+    
+    
+}
+.projects .row .card img{
+    height:40%;
+    width:100%;
+}
+
+.projects .card .card-title{
+    color:rgb(181, 122, 235);
+    font-weight:600;
+}
+.projects .card .card-text{
+    font-weight:700;
+}
