@@ -26,6 +26,9 @@ nav .container-fluid ul li {
 nav .container-fluid ul li a {
     color: #F4EEFF;
 }
+nav .container-fluid ul li a:visited{
+    color:white;
+}
 
 nav .container-fluid {
     padding: 8px 25px;

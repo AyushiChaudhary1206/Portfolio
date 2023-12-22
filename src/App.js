@@ -12,6 +12,7 @@ import {
 import Navbar from './Components/Navbar';
 import Projects from './Components/Projects';
 import Home from './Components/Home';
+import Contact from './Components/Contact';
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
       <Route exact path="/" element={<Home/>}></Route>
       <Route exact path="/about" element={<About/>}></Route>
       <Route exact path="/projects" element={<Projects/>}></Route>
+      <Route exact path="/contact" element={<Contact/>}></Route>
       </Routes>
     </HashRouter>
     </>
